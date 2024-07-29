@@ -1,0 +1,8 @@
+LXI 4100
+MOV A,M
+INX H
+SUB M
+INX H
+MOV M,A
+HLT
+
