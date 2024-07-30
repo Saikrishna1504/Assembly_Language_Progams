@@ -1,0 +1,9 @@
+mov a,#4h
+mov b,#6h
+mul a,b
+mov dptr,#4100h
+movx @dptr,a
+inc dptr
+mov a,b
+movx @dptr,a
+stop:sjmp stop
