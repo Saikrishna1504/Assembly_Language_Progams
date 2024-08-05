@@ -1,0 +1,11 @@
+# Masking of bits
+LDA 4200
+ANI,OFH
+STA 4201
+HLT
+
+# Setting of bits
+LDA 4200
+ORI,OFH
+STA 4201
+HLT
